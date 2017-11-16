@@ -1,0 +1,68 @@
+<div class="col-10 offset-1">
+<div class="biography">
+  <div class="text-center">
+    <h1>- My biography -</h1>
+  </div>
+</div>
+
+<br />
+<br />
+
+<div class="row">  
+    <div class="col-sm-4">      
+      <%= image_tag 'ivan.jpg', class: 'rounded-circle img-fluid' %>      
+    </div>
+ 
+  <div class="col-sm-6">
+    <div class="text-center">
+      <div class="me">      
+        <p> My name is Ivan Bustos. I am from Monterrey, Mexico. Currently, I am working in the intelligence department at Orange investments. Basically, my job is to make research and come up with a hypothesis on what to do with a piece of land. Web development is one of my passions, that is why I joined to The Firehose Project. I have some ideas that want to turn them into projects.
+        </p>
+      </div>      
+    </div> 
+  </div>  
+</div>
+
+<br class="clear" />
+<br />
+<hr>
+<br />
+<br />
+
+<div class="row col-10 offset-1 ">
+  <div class="col-sm-6">
+    <div class="sports_header text-center">
+      <h1>-My favorite sports-</h1>
+    </div>
+    <br />
+    <br />
+
+    <% @sports.each do |sport| %>  
+      <div class="sports">
+        <div class="text-center">
+          <%= sport.name %>
+        </div>
+      </div>  
+    <% end %>
+  </div>
+
+
+
+  <div class="col-sm-6">
+    <div class="music_header text-center">
+      <h1>-My favorite music groups-</h1>
+    </div>  
+    <br />
+    <br />
+
+    <% @music.each do |music| %>  
+      <div class="music">
+        <div class="text-center">
+          <%= music.group %>
+        </div>
+      </div> 
+    <% end %>
+  </div>
+</div>
+
+

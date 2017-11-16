@@ -1,0 +1,47 @@
+@import "bootstrap";
+
+.biography {
+  padding-top: 150px;
+  color: blue; 
+}
+
+.me {
+  vertical-align: middle;
+  padding-top: 70px;
+  font-size: 20px;
+  color: white;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+  color: #131414;
+}
+
+body {
+  background: image_url('background.jpg');
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
+.sports{
+  color: white;
+  font-weight: bold;
+}
+
+.music {
+  color: white;
+  font-weight: bold;
+}
+
+.sports_header{
+  color: blue;
+}
+
+.music_header {
+  color: blue;
+}
